@@ -6,11 +6,11 @@ import './Header.css'
 const Header = ({ siteTitle }) => (
     <header className="Header">
         <div className="HeaderGroup">
-            <Link to="/Gallery">Gallery</Link>
-            <Link to="/Description">Description</Link>
-            <Link to="/WallPaper">WallPaper</Link>
-            <Link to="/Download">Download</Link>
-            <Link to="/support"><button>SUPPORT</button></Link>
+            <Link to="/Gallery">GALLERY</Link>
+            <Link to="/WallPaper">WALLPAPER</Link>
+            <Link to="/Download">DOWNLOAD</Link>
+            <Link to="/about">ABOUT</Link>
+            <a href='https://github.com/wuyuandi' target="_blank"><button>Github</button></a>
         </div>
 
     </header>
