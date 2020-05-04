@@ -1,11 +1,20 @@
 module.exports = {
   siteMetadata: {
     title: `YuFF‘s Gallery`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Providing the most amazing photographs for free`,
+    keywords:'yuff.ca, yuff,YuFF, yuandiWu, photography, fontend, react, react.js, edmonton, alberta, Photographer',
     author: `@gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: 'u6l0bk6htkzp',
+        accessToken: 'OEMetw49mU201ZNgX04RMVOasK6L2CPyg-H7HvUY0yE'
+
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

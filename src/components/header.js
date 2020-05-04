@@ -3,13 +3,15 @@ import PropTypes from "prop-types"
 import React, { Component } from 'react'
 import './Header.css'
 
+
+
 class Header extends Component {
 	constructor(props) {
 		super(props)
 		this.state = {
 	  		hasScrolled: false
 		}
-  	}
+	  }
 	render() {
 		return (
 			<header className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
@@ -17,8 +19,8 @@ class Header extends Component {
 				<Link to="/Gallery">GALLERY</Link>
 				<Link to="/WallPaper">WALLPAPER</Link>
 				<Link to="/Download">DOWNLOAD</Link>
-				<Link to="/about">ABOUT</Link>
-				<a href='https://github.com/wuyuandi' target="_blank"><button>Github</button></a>
+				<Link to="/About">ABOUT</Link>
+				<a href='https://github.com/wuyuandi' target="_blank" rel="noopener noreferrer"><button>Github</button></a>
 			</div>
 
 			</header>

@@ -8,6 +8,10 @@ import Card from "../components/Card"
 import Section from "../components/Section"
 import Wave from "../components/Wave"
 
+
+
+
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -22,7 +26,7 @@ const IndexPage = () => (
       </div>
       <div className="About_me">
           <h3>Yuandi Wu</h3>
-          <p>Fontend developer / Photographer<br/>Edmonton Alberta</p>
+          <p>Fontend (React.js) / Backend (Node.js) Developer<br/>Web crawler (Scrapy) / Python Developer <br/> Photographer /Content Creator<br/>Edmonton Alberta</p>
           
       </div>
       <div className="Cards">
@@ -46,10 +50,11 @@ const IndexPage = () => (
         </div>
       </div>
       <Section 
+        id="Section"
         image={require('../images/DSC05777.jpg')}
         logo={require('../images/YuFF_logo.png')}
         title="ABOUT ME"
-        text="Bachelor of science (specialized in computer science) from University of Alberta
+        text="Bachelor of science (specialized in computer science) from University of Alberta. 
               Proficient in frontend developer (react.js, CSS, HTML5, etc)
               Proficient in Web Crawler (Scrapy)"
       />
