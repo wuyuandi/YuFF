@@ -52,7 +52,6 @@ const IndexPage = () => (
       <Section 
         id="Section"
         image={require('../images/DSC05763.jpg')}
-        
         title="ABOUT ME"
         text="Bachelor of science (specialized in computer science) from University of Alberta. 
               Proficient in frontend developer (react.js, CSS, HTML5, etc)
