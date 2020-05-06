@@ -23,11 +23,12 @@ const Layout = ({ children }) => {
         }
       }
       
-      allContentfulLink {
+      allContentfulLink(sort: {fields: [createdAt], order: ASC}){
         edges {
           node{
             title
             url
+            createdAt
           }
         }
       }
@@ -41,7 +42,10 @@ const Layout = ({ children }) => {
         <Header />
         <main>{children}</main>
         
-        <Footer data={data} />
+        <Footer data={data}>
+        © {new Date().getFullYear()}, Built with Yuandi Wu.
+          <a href="mailto:yuandi@ualberta.ca">Email me</a>
+        </Footer>
       </div>
     </>
   )

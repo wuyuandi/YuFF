@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+
 
 import Layout from "../components/layout"
 //import Image from "../components/image"
@@ -25,7 +25,7 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="About_me">
-          <h3>Yuandi Wu</h3>
+          <h1>Yuandi Wu</h1>
           <p>Fontend (React.js) / Backend (Node.js) Developer<br/>Web crawler (Scrapy) / Python Developer <br/> Photographer /Content Creator<br/>Edmonton Alberta</p>
           
       </div>
@@ -51,8 +51,8 @@ const IndexPage = () => (
       </div>
       <Section 
         id="Section"
-        image={require('../images/DSC05777.jpg')}
-        logo={require('../images/YuFF_logo.png')}
+        image={require('../images/DSC05763.jpg')}
+        
         title="ABOUT ME"
         text="Bachelor of science (specialized in computer science) from University of Alberta. 
               Proficient in frontend developer (react.js, CSS, HTML5, etc)
