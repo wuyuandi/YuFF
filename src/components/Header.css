@@ -51,11 +51,14 @@
         padding: 15px 0;
     }
     .HeaderGroup {
-        grid-template-columns: repeat(4, auto);
+        grid-template-columns: repeat(3, auto);
 
     }
 
     .Header a:nth-child(3) {
+        display: none;
+    }
+    .Header a:nth-child(5) {
         display: none;
     }
 }
