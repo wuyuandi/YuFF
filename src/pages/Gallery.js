@@ -6,15 +6,20 @@ import SEO from "../components/seo"
 import styled from 'styled-components';
 
 const Abb = styled.div `
-  background: rgba(0,0,0, 0.5);
-  height: 800px;
+	background: rgba(0,0,0, 0.2);
+	height: 1000px;
 `
+const Area_Selection = styled.div `
 
+`
 const Gallery = () => (
-  <Layout>
-    <SEO title="Gallery" />
-    <Abb>
-    </Abb>
+	<Layout>
+		<SEO title="Gallery" />
+		<Area_Selection>
+    		<button></button>
+    	</Area_Selection>
+	<Abb>
+	</Abb>
 
     <Link to="/">Go back to the homepage</Link>
   </Layout>
