@@ -27,9 +27,12 @@ const PrivacyGroup = styled.div `
     grid-template-columns: 300px auto;
     margin: 0 200px;
     grid-gap: 20px;
+    margin-bottom:100px;
+    
     
 
     @media (max-width: 720px) {
+        height:920px;
         grid-template-columns: 1fr;
     }
 `
@@ -37,15 +40,16 @@ const PrivacyTitle = styled.div `
     font-size: 40px;
     margin: 0;
     line-height: 1.2;
-    color: rgba(26, 26, 26, 0.9);
-    
+    color: rgba(26, 26, 26, 0.8);
+    grid-template-rows: auto 100%;
     @media (max-width: 720px) {
+        grid-template-columns: 1fr;
         font-size: 40px;
     }
 `
 
 
-const PrivacyStatement = styled.div `
+const PrivacyStatement = styled.p `
     color: rgba(26, 26, 26, 0.7);
     width: 960px;
     margin:  auto;

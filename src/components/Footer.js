@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const FooterGroup = styled.div `
     background: #F1F3F5;
-    padding: 50px 0px;
+    padding: 50px 0px 0px 0px;
     display: grid;
     grid-gap: 20px;
 `
@@ -57,7 +57,7 @@ const LinkGroup = styled.div `
 
 const Copyright = styled.div `
     color: #486791;
-    max-width: 700px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 0 20px;
 `
@@ -66,7 +66,7 @@ const Copyright = styled.div `
 const Footer = ({data, children}) => (
     <FooterGroup>
         <Text>I am looking for a fontend job or anything relate to CS in Alberta area. Hope u enjoy my web and photography @YuFF </Text>
-        <Button><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" className="twitter-share-button" data-text="Come here and find out more photograph " data-url="http://www.yuff.ca" data-show-count="false">Tweet</a>
+        <Button><a className="twitter-share-button"href="https://twitter.com/intent/tweet?text=Come%20and%20see%20this%20yuff.ca">Tweet</a>
         </Button>
         <LinkGroup>
         {data.allContentfulLink.edges.map((edge,index) => (
