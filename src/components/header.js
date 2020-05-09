@@ -16,8 +16,8 @@ class Header extends Component {
 		return (
 			<header className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
 				<div className="HeaderGroup">
+				<Link to="/">HOME</Link>
 				<Link to="/Gallery">GALLERY</Link>
-				<Link to="/WallPaper">WALLPAPER</Link>
 				<Link to="/Download">DOWNLOAD</Link>
 				<Link to="/About">ABOUT</Link>
 				<a href='https://github.com/wuyuandi' target="_blank" rel="noopener noreferrer"><button>Github</button></a>
