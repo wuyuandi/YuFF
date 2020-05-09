@@ -51,10 +51,7 @@ const PrivacyTitle = styled.div `
 
 const PrivacyStatement = styled.p `
     color: rgba(26, 26, 26, 0.7);
-    width: 960px;
-    margin:  auto;
     font-size: 20px;
-    padding: 10px;
 
     
 `
