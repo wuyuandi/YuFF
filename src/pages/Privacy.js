@@ -31,8 +31,8 @@ const PrivacyGroup = styled.div `
     
     
 
-    @media (max-width: 720px) {
-        height:920px;
+    @media (max-width: 900px) {
+        height:520px;
         grid-template-columns: 1fr;
     }
 `
@@ -42,7 +42,7 @@ const PrivacyTitle = styled.div `
     line-height: 1.2;
     color: rgba(26, 26, 26, 0.8);
     grid-template-rows: auto 100%;
-    @media (max-width: 720px) {
+    @media (max-width: 1000px) {
         grid-template-columns: 1fr;
         font-size: 40px;
     }
