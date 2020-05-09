@@ -20,7 +20,7 @@ class Header extends Component {
 				<Link to="/Gallery">GALLERY</Link>
 				<Link to="/Download">DOWNLOAD</Link>
 				<Link to="/About">ABOUT</Link>
-				<a href='https://github.com/wuyuandi' target="_blank" rel="noopener noreferrer"><button>Github</button></a>
+				<a href='https://github.com/wuyuandi' target="_blank" rel="noopener noreferrer">GITHUB</a>
 			</div>
 
 			</header>

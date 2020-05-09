@@ -19,7 +19,7 @@ const SectionTitleGroup = styled.div`
     grid-template-columns: 300px auto;
     margin: 0 40px;
     grid-gap: 20px;
-    grid-template-rows: auto 100%;
+    
 
     @media (max-width: 720px) {
         grid-template-columns: 1fr;
