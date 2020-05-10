@@ -5,23 +5,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from 'styled-components';
 import Wave from '../components/Wave';
+import WaveBackground from "../components/WaveBackground";
 
 
 //1792x920
 
-const PrivacyWrapper = styled.div `
-    background-image: url(${props => props.img});
-    height: 600px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-`
-const WaveBottom  = styled.div`
-    position: absolute;
-    width: 100%;
-    bottom: -10px;
-
-`
 const PrivacyGroup = styled.div `
     display: grid;
     grid-template-columns: 300px auto;
@@ -58,9 +46,7 @@ const PrivacyStatement = styled.p `
 const Privacy = () => (
 	<Layout>
 		<SEO title="Privacy" />
-		<PrivacyWrapper img={require('../images/DSC05777.jpg')} >
-        <WaveBottom><Wave /></WaveBottom>
-        </PrivacyWrapper>
+		<WaveBackground />
         <PrivacyGroup>
             <PrivacyTitle>
                 Privacy Policy
