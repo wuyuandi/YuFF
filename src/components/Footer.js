@@ -37,12 +37,15 @@ const Button = styled.div `
 
 `
 const LinkGroup = styled.div `
+    font-size: 22px;
     width: 500px;
     color: #5334F5;
     margin: 20px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+    justify-items: center;
+    align-items: center; 
 
     a {
         transition: 0.8s;
@@ -60,6 +63,7 @@ const Copyright = styled.div `
     max-width: 600px;
     margin: 0 auto;
     padding: 0 20px;
+    font-size:18px;
 `
 
 
