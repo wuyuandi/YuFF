@@ -8,7 +8,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     transition: 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
-    margin-bottom: 100px;
+    z-index: 2;
 }
 .Card:hover {
     transform: scale(1.05, 1.05);

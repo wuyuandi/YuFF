@@ -44,7 +44,7 @@ const IndexPage = () => (
           text="Bridge"
           image={require('../images/bridge.jpg')} />
         <Card 
-          title="Edmonton"
+          title="Zhuhai"
           text="StreetView"
           image={require('../images/DSC05811.jpg')} />
         </div>

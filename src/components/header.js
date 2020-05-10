@@ -20,7 +20,7 @@ class Header extends Component {
 				<Link to="/Gallery">GALLERY</Link>
 				<Link to="/Download">DOWNLOAD</Link>
 				<Link to="/About">ABOUT</Link>
-				<a href='https://github.com/wuyuandi' target="_blank" rel="noopener noreferrer">GITHUB</a>
+				<a href='https://github.com/wuyuandi' target="_blank" rel="noopener noreferrer"><img src={require('../images/github-11-64.png')} /></a>
 			</div>
 
 			</header>

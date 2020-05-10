@@ -94,7 +94,6 @@ a {
   height: 300px;
   max-width: 900px;
   text-align: center;
-  
 }
 .About_me p {
   font-family: adobe-garamond-pro, serif;
@@ -110,8 +109,10 @@ a {
   margin: auto auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 80px;
+  grid-row-gap: 150px;
+
   justify-items: center;
+  align-items: center;
 }
 @media (max-width: 1060px) {
   .CardWrapper {
