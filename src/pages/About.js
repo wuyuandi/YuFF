@@ -16,10 +16,11 @@ const About = () => (
                 <hr />
                 <div className="icon-btns">
                     <ul>
-                        <li><i className="iconfont phs-twitter"></i></li>
-                        <li><i className="iconfont phs-facebook"></i></li>
-                        <li><i className="iconfont phs-Instagram"></i></li>
-                        <li><i className="iconfont phs-email"></i></li>
+                        <li><i className="iconfont icon-wechat"></i></li>
+                        <li><i className="iconfont icon-mail"></i></li>
+                        <li><i className="iconfont icon-instagram"></i></li>
+                        <li><i className="iconfont icon-mianshulogo"></i></li>
+                        <li><i className="iconfont icon-twitter"></i></li>
                     </ul>
                 </div>
 
