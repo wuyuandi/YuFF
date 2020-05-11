@@ -3,8 +3,10 @@ import styled from 'styled-components';
 import SEO from "../components/seo";
 import '../components/About.css'
 
-
+import { Helmet } from "react-helmet"
 const About = () => (
+    
+    
     <div className="wholePage">
         <div className="card-container">
             <div className="image-wrapper">

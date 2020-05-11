@@ -8,7 +8,7 @@ import Card from "../components/Card"
 import Section from "../components/Section"
 import Wave from "../components/Wave"
 
-
+import { Helmet } from "react-helmet"
 
 
 
