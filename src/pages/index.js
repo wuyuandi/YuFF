@@ -53,11 +53,11 @@ const IndexPage = () => (
         id="Section"
         image={require('../images/DSC05763.jpg')}
         title="ABOUT ME"
-        text="Bachelor of science (specialized in computer science) from University of Alberta. 
-              Proficient in frontend developer (react.js, CSS, HTML5, etc)
-              Proficient in Web Crawler (Scrapy)
-              Knowledge: C SQL Machine Learning 
-              Learning: Node.js Figma 
+        text="Bachelor of science (specialized in computer science) from University of Alberta.<br/>
+              Proficient in frontend developer (react.js, CSS, HTML5, etc)<br/>
+              Proficient in Web Crawler (Scrapy)<br/>
+              Knowledge: C, SQL, Machine Learning <br/>
+              Learning: Node.js and Figma 
               "
       />
     </div>

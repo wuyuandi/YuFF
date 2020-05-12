@@ -41,7 +41,7 @@ const SectionTitle = styled.h3`
     }
 `
 const SectionText = styled.p`
-    color: white;
+    color: #ffd38a;
 `
 const WaveBottom  = styled.div`
     position: absolute;
@@ -63,7 +63,7 @@ const Section = props => (
         <SectionLogo src={props.logo}/>
         <SectionTitleGroup>
             <SectionTitle>{props.title}</SectionTitle>
-            <SectionText>{props.text}</SectionText>
+            <SectionText dangerouslySetInnerHTML={{__html: props.text}} />
         </SectionTitleGroup>
     </SectionWrapper>
     
