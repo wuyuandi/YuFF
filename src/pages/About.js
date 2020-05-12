@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import SEO from "../components/seo";
 import '../components/About.css'
-
+import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
 const About = () => (
     
@@ -18,7 +18,7 @@ const About = () => (
                 <hr />
                 <div className="icon-btns">
                     <ul>
-                        <li><i className="iconfont icon-wechat"></i></li>
+                        
                         <li><i className="iconfont icon-mail"></i></li>
                         <li><i className="iconfont icon-instagram"></i></li>
                         <li><i className="iconfont icon-mianshulogo"></i></li>

@@ -55,7 +55,10 @@ const IndexPage = () => (
         title="ABOUT ME"
         text="Bachelor of science (specialized in computer science) from University of Alberta. 
               Proficient in frontend developer (react.js, CSS, HTML5, etc)
-              Proficient in Web Crawler (Scrapy)"
+              Proficient in Web Crawler (Scrapy)
+              Knowledge: C SQL Machine Learning 
+              Learning: Node.js Figma 
+              "
       />
     </div>
 
