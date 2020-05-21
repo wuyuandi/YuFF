@@ -1,7 +1,7 @@
 /*
  * @Author: yuandi wu
  * @Date: 2020-04-29 13:42:45
- * @LastEditTime: 2020-05-21 13:12:18
+ * @LastEditTime: 2020-05-21 16:59:36
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /YuFF/src/pages/index.js
@@ -76,7 +76,7 @@ const IndexPage = () => (
               Proficient in frontend developer (react.js, CSS, HTML5, etc)<br/>
               Proficient in Web Crawler (Scrapy)<br/>
               Knowledge: C, SQL, Machine Learning <br/>
-              Learning: Node.js and Figma 
+              Learning: Node.js, Figma, Framer 
               "
       />
     </div>
