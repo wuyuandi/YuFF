@@ -38,14 +38,14 @@ const IndexPage = () => (
       <div className="Hero">
         <div className="HeroGroup">
           <h1>PHOTOGRAPHY </h1>
-          <h1>FONTEND DEVELOPER</h1>
+          <h1>FRONTEND DEVELOPER</h1>
           <Wave />  
 
         </div>
       </div>
       <div className="About_me">
           <h1>Yuandi Wu</h1>
-          <p>Fontend (React.js) / Backend (Node.js) Developer<br/>Web crawler (Scrapy) / Python Developer <br/> Photographer /Content Creator<br/>Edmonton Alberta</p>
+          <p>Frontend (React.js) / Backend (Node.js) Developer<br/>Web crawler (Scrapy) / Python Developer <br/> Photographer /Content Creator<br/>Edmonton Alberta</p>
           
       </div>
       <div className="Cards">
