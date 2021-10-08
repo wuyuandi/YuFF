@@ -17,8 +17,7 @@ class Header extends Component {
 			<header className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
 				<div className="HeaderGroup">
 				<Link to="/">HOME</Link>
-				<Link to="/Gallery">GALLERY</Link>
-				<Link to="/Download">DOWNLOAD</Link>
+				{/* <Link to="/Gallery">GALLERY</Link> */}
 				<Link to="/About">ABOUT</Link>
 				<a href='https://github.com/wuyuandi' target="_blank" rel="noopener noreferrer"><img src={require('../images/github-11-64.png')} /></a>
 			</div>

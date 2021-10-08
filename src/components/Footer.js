@@ -69,7 +69,6 @@ const Copyright = styled.div `
 
 const Footer = ({data, children}) => (
     <FooterGroup>
-        <Text>I am looking for a fontend job or anything relate to CS in Alberta area. Hope u enjoy my web and photography @YuFF </Text>
         <Button><a className="twitter-share-button"href="https://twitter.com/intent/tweet?text=Come%20and%20see%20this%20yuff.ca">Tweet</a>
         </Button>
         <LinkGroup>
